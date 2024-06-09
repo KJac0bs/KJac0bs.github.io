@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+    rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Pear Pools</h1>
+            </div>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.php">Products</a></li>
+                <li><a href="quote.html" class="get_quote_button">Get Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="services_banner">
+        <img src="images\services_banner.jpg" alt="services_banner">
+        <div class="overlay_heading">Our Services</div>
+    </div>
+
+    <div class="gradient_background">
+        <div class="services_content">
+            <div class="service_item">
+                <img src="images\cleaning_icon.png" alt="cleaning icon" class="service_icon">
+                <a name="cleaning_icon_destination"></a>
+                <div class="service_text">
+                    <p>Keeping your pool clean is very important and our technicians know how to quickly and effectively clean your pools. 
+                        We provide the following pool cleaning services:
+                    </p>
+                    <ul>
+                        <li>Once off pool cleaning</li>
+                        <li>Weekly scheduled pool cleaning</li>
+                        <li>Chemical balancing</li>
+                        <li>Filter sand changing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service_item">
+                <img src="images\maintenance_icon.png" alt="maintenance icon" class="service_icon">
+                <a name="maintenance_icon_destination"></a>
+                <div class="service_text">
+                    <p>We provide maintenance to ensure a safe swimming environment. 
+                        We provide the following pool maintenance services:
+                    </p>
+                    <ul>
+                        <li>Weekly pool backwashing and rinsing</li>
+                        <li>Regular testing & correcting of pool acid levels</li>
+                        <li>Weekly pool chemical treatment</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service_item">
+                <img src="images\repairs_icon.png" alt="repairs icon" class="service_icon">
+                <a name="repairs_icon_destination"></a>
+                <div class="service_text">
+                    <p>Our skilled technicians will identify your pools problem and fix it. 
+                        We provide the following repair services:
+                    </p>
+                    <ul>
+                        <li>Pump, filter, and, heater repairs</li>
+                        <li>Pipe leakage indentification and repair</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer_section">
+                <div class="logo_section">
+                    <h1>Pear Pools</h1>
+                </div>
+                <div class="contact_details_section">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@pearpools.co.za</p>
+                    <h4>Operating Hours</h4>
+                    <p>Sunday - Friday: 2pm - 6pm</p>
+                    <p>Saturday: Closed</p>
+                    <p>Public Holidays: Closed</p>
+                </div>
+
+                <div class="feedback_section">
+                    <form action="feedback.php" method="post">
+                        <div class="rating">
+                            <div class="rating_question">
+                                <div class="rating_title">Rate us</div>
+                                <div class="rating_content">How was our service?</div>
+                            </div>
+                            <div class="rating_stars">
+                                <input type="radio" name="rating1" id="r11" value="5">
+                                <label for="r11" class="star"></label>
+            
+                                <input type="radio" name="rating1" id="r12" value="4">
+                                <label for="r12" class="star"></label>
+            
+                                <input type="radio" name="rating1" id="r13" value="3">
+                                <label for="r13" class="star"></label>
+            
+                                <input type="radio" name="rating1" id="r14" value="2">
+                                <label for="r14" class="star"></label>
+            
+                                <input type="radio" name="rating1" id="r15" value="1">
+                                <label for="r15" class="star"></label>
+                            </div>
+            
+                            <div class="feedback">
+                                <textarea name="" id="feedback" placeholder="Give us some feedback"></textarea>
+                                <button type="submit" class="feedback_button">Submit Feedback</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
+
